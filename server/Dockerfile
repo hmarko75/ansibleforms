@@ -11,6 +11,7 @@ WORKDIR /app
 
 # install ansible
 RUN apk add ansible
+RUN apk add openssh
 
 # upgrade pip
 RUN apk add py3-pip
